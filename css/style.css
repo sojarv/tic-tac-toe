@@ -1,0 +1,64 @@
+.square {
+    float: left;
+    border: solid;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+#tictactoe {
+    height: 300px;
+    width: 300px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2E7C9;
+    font-family: 'Raleway', sans-serif;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.restart {
+    margin-top: 15px;
+    display: none;
+}
+
+.restartShow {
+    margin: 1px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 297px;
+    height: 30px;
+}
+
+.againButton {
+    width: 150px;
+    height: 30px;
+    background-color: #BFD7B5;
+    border: none;
+    outline: none;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
